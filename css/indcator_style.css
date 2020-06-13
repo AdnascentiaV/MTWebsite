@@ -5,8 +5,6 @@
 .server-status {
     text-align: left;
     display: block;
-    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/minecraft/dirt_bkg.jpg);
-    background-size: auto 100%;
     width: 625px;
     margin: auto;
     height: 70px;
@@ -112,14 +110,15 @@
     color: darkred;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 600px) {
 
     .server-status {
         width: 100%;
     }
 
     .motd {
-        display: none;
+        width: 100px;
+        min-width: 100px;
     }
 
     .server-oo {
