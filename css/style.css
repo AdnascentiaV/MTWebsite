@@ -103,3 +103,34 @@ footer {
     padding-top: 100px;
     color: grey;
 }
+
+@media only screen and (max-width: 1100px) {
+    .banner h1 {
+        font-size: 3em;
+    }
+
+    .banner h2 {
+        font-size: 2em;
+    }
+
+    header {
+        height: 30vh;
+    }
+
+    main h1 {
+        font-size: 2em;
+    }
+
+    main h2 {
+        font-size: 2em;
+    }
+
+    main p {
+        font-size: 1em;
+        width: 95%;
+    }
+
+    main img {
+        width: 95%;
+    }
+}
