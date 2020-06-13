@@ -71,6 +71,14 @@ header {
     height: 15vh;
 }
 
+.indicators {
+    margin-top: 50px;
+}
+
+.indicators>h2 {
+    font-size: 1.5em;
+}
+
 main h1 {
     text-align: center;
     font-size: 3em;
@@ -83,14 +91,14 @@ main h2 {
     padding-top: 50px;
 }
 
-main p {
+main>p, header p {
     text-align: center;
     font-size: 2em;
     width: 70%;
     margin: auto;
 }
 
-main img {
+.photos img {
     display: block;
     width: 75%;
     margin: auto;

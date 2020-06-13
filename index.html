@@ -5,6 +5,12 @@
     <title>MineTheft | WIP</title>
     <link rel="shortcut icon" href="images/minecraft/dirt_bkg.jpg"/>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/indcator_style.css" rel="stylesheet" type="text/css">
+    <script src="https://mcapi.us/scripts/minecraft.js"></script>
+    <script src="scripts/serverstatus.js"></script>
+    <script>
+        serverstatus(1, 'play.minetheft.net',25568);
+    </script>
 </head>
 <body>
     <div class="banner">
@@ -16,17 +22,31 @@
             <h1>Hi</h1>
             <p>We're working on creating a great Minecraft experience, please look forward to playing on our server in the future!</p>
         </header>
+        <div class="indicators">
+            <h2>Server Status</h2>
+            <div class="server-status-1 server-status">
+                <img class="favicon" src="images/minecraft/dirt_bkg.jpg" alt="Server-Favicon">
+                <p class="server-oo"></p>
+                <img class="online" src="images/minecraft/down.png" alt="Online Indicator">
+                <p class="playersnow"></p>
+                <p class="motd"></p>
+                <p class="version"></p>
+            </div>
+        </div>
+        
 
         <h2>About Us</h2>
         <p>We're a group of passionate individuals who want to bring you a great prison server experience. Our goal is to exercise our knowledge to create a fun and inviting server for you and your friends to play on!</p>
 
-        <h2>Photos</h2>
-        <img src="images/spawn1.png" alt="Spawn">
-        <img src="images/spawn2.png" alt="Spawn">
-        <img src="images/spawn3.png" alt="Spawn">
-        <img src="images/spawn4.png" alt="Spawn">
-        <img src="images/spawn5.png" alt="Spawn">
-        <img src="images/spawn6.png" alt="Spawn">
+        <div class="photos">
+            <h2>Photos</h2>
+            <img src="images/spawn1.png" alt="Spawn">
+            <img src="images/spawn2.png" alt="Spawn">
+            <img src="images/spawn3.png" alt="Spawn">
+            <img src="images/spawn4.png" alt="Spawn">
+            <img src="images/spawn5.png" alt="Spawn">
+            <img src="images/spawn6.png" alt="Spawn">
+        </div>
 
         <footer>
             <p>Copyright &copy; 2020. All Rights Reserved.</p>
